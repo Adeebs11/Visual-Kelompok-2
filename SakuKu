@@ -2,7 +2,6 @@ namespace ConsoleApp1
 {
     class Transaksi
     {
-        
         private DateTime tanggal;
         private string deskripsi;
         private double saldo;
