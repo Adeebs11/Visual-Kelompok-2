@@ -15,7 +15,7 @@ namespace ConsoleApp1
 
         public void Pemasukan()
         {
-            // logika untuk input pemasukan
+            // logika ketika pengguna  input pemasukan
             Console.WriteLine("Masukkan jumlah pemasukan: ");
             double pemasukan = double.Parse(Console.ReadLine());
 
