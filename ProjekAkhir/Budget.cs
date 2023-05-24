@@ -49,10 +49,28 @@ namespace ProjekAkhir
                 formBackground.Dispose();
             }
         }
-
+        
+        CLASS.budget bdgt = new CLASS.budget();
         private void Budget_Load(object sender, EventArgs e)
         {
+            //Pengeluaran
+            gunaLabelTotPengeluaran.Text = "Rp." + bdgt.totBudgetPengeluaran();
 
+            gunaLabelTotMakanan.Text = "Rp." + bdgt.totMakanan();
+            gunaLabelTotTransportasi.Text = "Rp." + bdgt.totTransportasi();
+            gunaLabelTotRumah.Text = "Rp." + bdgt.totKRumah();
+            gunaLabelTotPerawatan.Text = "Rp." + bdgt.totPPribadi();
+            gunaLabelTotBelanja.Text = "Rp." + bdgt.totBelanja();
+            gunaLabelTotKesehatan.Text = "Rp." + bdgt.totKesehatan();
+            gunaLabelTotPendidikan.Text = "Rp." + bdgt.totPendidikan();
+            gunaLabelTotLainPengeluaran.Text = "Rp." + bdgt.totPengeluaranLainnya();
+
+            //Pemasukan
+            gunaLabelTotPemasukan.Text = "Rp." + bdgt.totBudgetPemasukan();
+
+            gunaLabelTotGaji.Text = "Rp." + bdgt.totGaji();
+            gunaLabelTotInvestasi.Text = "Rp." + bdgt.totInvestasi();
+            gunaLabelTotLainPemasukan.Text = "Rp." + bdgt.totPemasukanLainnya();
         }
     }
 }

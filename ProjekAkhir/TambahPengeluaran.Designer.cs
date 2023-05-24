@@ -85,13 +85,14 @@
             this.gunaComboBox1.ForeColor = System.Drawing.Color.Black;
             this.gunaComboBox1.FormattingEnabled = true;
             this.gunaComboBox1.Items.AddRange(new object[] {
-            "Makanan & Minuman",
+            "Makanan dan Minuman",
             "Transportasi",
             "Kebutuhan Rumah",
             "Perawatan Pribadi",
             "Belanja",
             "Kesehatan",
-            "Pendidikan"});
+            "Pendidikan",
+            "Lainnya"});
             this.gunaComboBox1.Location = new System.Drawing.Point(78, 233);
             this.gunaComboBox1.Name = "gunaComboBox1";
             this.gunaComboBox1.OnHoverItemBaseColor = System.Drawing.Color.White;

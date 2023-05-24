@@ -166,7 +166,7 @@
             // 
             this.gunaLabelTotMakanan.AutoSize = true;
             this.gunaLabelTotMakanan.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelTotMakanan.Location = new System.Drawing.Point(31, 145);
+            this.gunaLabelTotMakanan.Location = new System.Drawing.Point(50, 145);
             this.gunaLabelTotMakanan.Name = "gunaLabelTotMakanan";
             this.gunaLabelTotMakanan.Size = new System.Drawing.Size(93, 21);
             this.gunaLabelTotMakanan.TabIndex = 14;
@@ -216,7 +216,7 @@
             // 
             this.gunaLabelTotTransportasi.AutoSize = true;
             this.gunaLabelTotTransportasi.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelTotTransportasi.Location = new System.Drawing.Point(31, 145);
+            this.gunaLabelTotTransportasi.Location = new System.Drawing.Point(50, 145);
             this.gunaLabelTotTransportasi.Name = "gunaLabelTotTransportasi";
             this.gunaLabelTotTransportasi.Size = new System.Drawing.Size(114, 21);
             this.gunaLabelTotTransportasi.TabIndex = 17;
@@ -266,7 +266,7 @@
             // 
             this.gunaLabelTotRumah.AutoSize = true;
             this.gunaLabelTotRumah.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelTotRumah.Location = new System.Drawing.Point(31, 145);
+            this.gunaLabelTotRumah.Location = new System.Drawing.Point(50, 145);
             this.gunaLabelTotRumah.Name = "gunaLabelTotRumah";
             this.gunaLabelTotRumah.Size = new System.Drawing.Size(86, 21);
             this.gunaLabelTotRumah.TabIndex = 17;
@@ -316,7 +316,7 @@
             // 
             this.gunaLabelTotPerawatan.AutoSize = true;
             this.gunaLabelTotPerawatan.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelTotPerawatan.Location = new System.Drawing.Point(31, 145);
+            this.gunaLabelTotPerawatan.Location = new System.Drawing.Point(50, 145);
             this.gunaLabelTotPerawatan.Name = "gunaLabelTotPerawatan";
             this.gunaLabelTotPerawatan.Size = new System.Drawing.Size(46, 21);
             this.gunaLabelTotPerawatan.TabIndex = 17;
@@ -366,7 +366,7 @@
             // 
             this.gunaLabelTotBelanja.AutoSize = true;
             this.gunaLabelTotBelanja.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelTotBelanja.Location = new System.Drawing.Point(31, 145);
+            this.gunaLabelTotBelanja.Location = new System.Drawing.Point(50, 145);
             this.gunaLabelTotBelanja.Name = "gunaLabelTotBelanja";
             this.gunaLabelTotBelanja.Size = new System.Drawing.Size(78, 21);
             this.gunaLabelTotBelanja.TabIndex = 17;
@@ -416,7 +416,7 @@
             // 
             this.gunaLabelTotKesehatan.AutoSize = true;
             this.gunaLabelTotKesehatan.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelTotKesehatan.Location = new System.Drawing.Point(31, 145);
+            this.gunaLabelTotKesehatan.Location = new System.Drawing.Point(50, 145);
             this.gunaLabelTotKesehatan.Name = "gunaLabelTotKesehatan";
             this.gunaLabelTotKesehatan.Size = new System.Drawing.Size(100, 21);
             this.gunaLabelTotKesehatan.TabIndex = 17;
@@ -466,7 +466,7 @@
             // 
             this.gunaLabelTotPendidikan.AutoSize = true;
             this.gunaLabelTotPendidikan.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelTotPendidikan.Location = new System.Drawing.Point(31, 145);
+            this.gunaLabelTotPendidikan.Location = new System.Drawing.Point(50, 145);
             this.gunaLabelTotPendidikan.Name = "gunaLabelTotPendidikan";
             this.gunaLabelTotPendidikan.Size = new System.Drawing.Size(105, 21);
             this.gunaLabelTotPendidikan.TabIndex = 17;
@@ -516,7 +516,7 @@
             // 
             this.gunaLabelTotGaji.AutoSize = true;
             this.gunaLabelTotGaji.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelTotGaji.Location = new System.Drawing.Point(31, 145);
+            this.gunaLabelTotGaji.Location = new System.Drawing.Point(50, 145);
             this.gunaLabelTotGaji.Name = "gunaLabelTotGaji";
             this.gunaLabelTotGaji.Size = new System.Drawing.Size(55, 21);
             this.gunaLabelTotGaji.TabIndex = 17;
@@ -566,7 +566,7 @@
             // 
             this.gunaLabelTotInvestasi.AutoSize = true;
             this.gunaLabelTotInvestasi.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelTotInvestasi.Location = new System.Drawing.Point(31, 145);
+            this.gunaLabelTotInvestasi.Location = new System.Drawing.Point(50, 145);
             this.gunaLabelTotInvestasi.Name = "gunaLabelTotInvestasi";
             this.gunaLabelTotInvestasi.Size = new System.Drawing.Size(89, 21);
             this.gunaLabelTotInvestasi.TabIndex = 17;
@@ -631,7 +631,7 @@
             // 
             this.gunaLabelTotLainPemasukan.AutoSize = true;
             this.gunaLabelTotLainPemasukan.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelTotLainPemasukan.Location = new System.Drawing.Point(31, 145);
+            this.gunaLabelTotLainPemasukan.Location = new System.Drawing.Point(50, 145);
             this.gunaLabelTotLainPemasukan.Name = "gunaLabelTotLainPemasukan";
             this.gunaLabelTotLainPemasukan.Size = new System.Drawing.Size(81, 21);
             this.gunaLabelTotLainPemasukan.TabIndex = 17;
@@ -681,7 +681,7 @@
             // 
             this.gunaLabelTotLainPengeluaran.AutoSize = true;
             this.gunaLabelTotLainPengeluaran.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelTotLainPengeluaran.Location = new System.Drawing.Point(31, 145);
+            this.gunaLabelTotLainPengeluaran.Location = new System.Drawing.Point(50, 145);
             this.gunaLabelTotLainPengeluaran.Name = "gunaLabelTotLainPengeluaran";
             this.gunaLabelTotLainPengeluaran.Size = new System.Drawing.Size(81, 21);
             this.gunaLabelTotLainPengeluaran.TabIndex = 17;

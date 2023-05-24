@@ -32,7 +32,7 @@ namespace ProjekAkhir
             Form formBackground = new Form();
             try
             {
-                using (TambahTransaksi uu = new TambahTransaksi())
+                using (TambahPemasukan uu = new TambahPemasukan())
                 {
                     formBackground.StartPosition = FormStartPosition.Manual;
                     formBackground.FormBorderStyle = FormBorderStyle.None;

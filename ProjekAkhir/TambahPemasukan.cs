@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjekAkhir
 {
-    public partial class TambahTransaksi : Form
+    public partial class TambahPemasukan : Form
     {
-        public TambahTransaksi()
+        public TambahPemasukan()
         {
             InitializeComponent();
         }

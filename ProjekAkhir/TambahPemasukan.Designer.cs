@@ -1,6 +1,6 @@
 ﻿namespace ProjekAkhir
 {
-    partial class TambahTransaksi
+    partial class TambahPemasukan
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TambahTransaksi));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TambahPemasukan));
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
@@ -193,7 +193,8 @@
             this.gunaComboBox1.FormattingEnabled = true;
             this.gunaComboBox1.Items.AddRange(new object[] {
             "Gaji",
-            "Investasi"});
+            "Investasi",
+            "Lainnya"});
             this.gunaComboBox1.Location = new System.Drawing.Point(78, 233);
             this.gunaComboBox1.Name = "gunaComboBox1";
             this.gunaComboBox1.OnHoverItemBaseColor = System.Drawing.Color.White;
@@ -257,7 +258,7 @@
             this.gunaBtnClose.TabIndex = 8;
             this.gunaBtnClose.Click += new System.EventHandler(this.gunaBtnClose_Click);
             // 
-            // TambahTransaksi
+            // TambahPemasukan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -277,7 +278,7 @@
             this.Controls.Add(this.gunaLabel2);
             this.Controls.Add(this.gunaLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "TambahTransaksi";
+            this.Name = "TambahPemasukan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TambahTransaksi";
             this.TopMost = true;

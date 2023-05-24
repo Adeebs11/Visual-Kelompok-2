@@ -96,6 +96,7 @@
     <Compile Include="Budget.Designer.cs">
       <DependentUpon>Budget.cs</DependentUpon>
     </Compile>
+    <Compile Include="CLASS\budget.cs" />
     <Compile Include="CLASS\pemasukan.cs" />
     <Compile Include="CLASS\pengeluaran.cs" />
     <Compile Include="Dashboard.cs">
@@ -137,11 +138,11 @@
     <Compile Include="TambahPengeluaran.Designer.cs">
       <DependentUpon>TambahPengeluaran.cs</DependentUpon>
     </Compile>
-    <Compile Include="TambahTransaksi.cs">
+    <Compile Include="TambahPemasukan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TambahTransaksi.Designer.cs">
-      <DependentUpon>TambahTransaksi.cs</DependentUpon>
+    <Compile Include="TambahPemasukan.Designer.cs">
+      <DependentUpon>TambahPemasukan.cs</DependentUpon>
     </Compile>
     <Compile Include="TransaksiPemasukan.cs">
       <SubType>Form</SubType>
@@ -186,8 +187,8 @@
     <EmbeddedResource Include="TambahPengeluaran.resx">
       <DependentUpon>TambahPengeluaran.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TambahTransaksi.resx">
-      <DependentUpon>TambahTransaksi.cs</DependentUpon>
+    <EmbeddedResource Include="TambahPemasukan.resx">
+      <DependentUpon>TambahPemasukan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TransaksiPemasukan.resx">
       <DependentUpon>TransaksiPemasukan.cs</DependentUpon>
