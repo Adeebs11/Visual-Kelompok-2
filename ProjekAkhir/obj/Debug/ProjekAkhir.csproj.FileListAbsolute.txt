@@ -108,3 +108,5 @@ D:\1 SEMESTER 4\PROJEK PVISUAL\Visual-Kelompok-2\ProjekAkhir\obj\Debug\ProjekAkh
 D:\1 SEMESTER 4\PROJEK PVISUAL\Visual-Kelompok-2\ProjekAkhir\obj\Debug\ProjekAkhir.exe
 D:\1 SEMESTER 4\PROJEK PVISUAL\Visual-Kelompok-2\ProjekAkhir\obj\Debug\ProjekAkhir.pdb
 D:\1 SEMESTER 4\PROJEK PVISUAL\Visual-Kelompok-2\ProjekAkhir\obj\Debug\ProjekAkhir.TambahPemasukan.resources
+D:\1 SEMESTER 4\PROJEK PVISUAL\Visual-Kelompok-2\ProjekAkhir\obj\Debug\ProjekAkhir.EditPemasukan.resources
+D:\1 SEMESTER 4\PROJEK PVISUAL\Visual-Kelompok-2\ProjekAkhir\obj\Debug\ProjekAkhir.EditPengeluaran.resources

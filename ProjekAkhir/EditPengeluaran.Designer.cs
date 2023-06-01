@@ -1,6 +1,6 @@
 ﻿namespace ProjekAkhir
 {
-    partial class TambahPengeluaran
+    partial class EditPengeluaran
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TambahPengeluaran));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditPengeluaran));
             this.gunaButtonMulai = new Guna.UI.WinForms.GunaButton();
             this.gunaComboKategoriPglr = new Guna.UI.WinForms.GunaComboBox();
             this.gunaDateTimePickerPglr = new Guna.UI.WinForms.GunaDateTimePicker();
@@ -37,9 +37,9 @@
             this.gunaLabel6 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaBtnClose = new Guna.UI.WinForms.GunaButton();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaBtnClose = new Guna.UI.WinForms.GunaButton();
             this.SuspendLayout();
             // 
             // gunaButtonMulai
@@ -66,7 +66,7 @@
             this.gunaButtonMulai.OnPressedDepth = 15;
             this.gunaButtonMulai.Radius = 15;
             this.gunaButtonMulai.Size = new System.Drawing.Size(182, 42);
-            this.gunaButtonMulai.TabIndex = 31;
+            this.gunaButtonMulai.TabIndex = 40;
             this.gunaButtonMulai.Text = "SIMPAN";
             this.gunaButtonMulai.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButtonMulai.Click += new System.EventHandler(this.gunaButtonMulai_Click);
@@ -97,7 +97,7 @@
             this.gunaComboKategoriPglr.OnHoverItemBaseColor = System.Drawing.Color.White;
             this.gunaComboKategoriPglr.OnHoverItemForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(94)))), ((int)(((byte)(141)))));
             this.gunaComboKategoriPglr.Size = new System.Drawing.Size(428, 31);
-            this.gunaComboKategoriPglr.TabIndex = 30;
+            this.gunaComboKategoriPglr.TabIndex = 39;
             // 
             // gunaDateTimePickerPglr
             // 
@@ -118,7 +118,7 @@
             this.gunaDateTimePickerPglr.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(94)))), ((int)(((byte)(141)))));
             this.gunaDateTimePickerPglr.OnPressedColor = System.Drawing.Color.Black;
             this.gunaDateTimePickerPglr.Size = new System.Drawing.Size(428, 31);
-            this.gunaDateTimePickerPglr.TabIndex = 29;
+            this.gunaDateTimePickerPglr.TabIndex = 38;
             this.gunaDateTimePickerPglr.Text = "Saturday, 13 May 2023";
             this.gunaDateTimePickerPglr.Value = new System.DateTime(2023, 5, 13, 12, 3, 27, 3);
             // 
@@ -138,7 +138,7 @@
             this.gunaTextBoxDeskPglr.PasswordChar = '\0';
             this.gunaTextBoxDeskPglr.SelectedText = "";
             this.gunaTextBoxDeskPglr.Size = new System.Drawing.Size(428, 88);
-            this.gunaTextBoxDeskPglr.TabIndex = 28;
+            this.gunaTextBoxDeskPglr.TabIndex = 37;
             // 
             // gunaTextBoxJmlPglr
             // 
@@ -155,7 +155,7 @@
             this.gunaTextBoxJmlPglr.PasswordChar = '\0';
             this.gunaTextBoxJmlPglr.SelectedText = "";
             this.gunaTextBoxJmlPglr.Size = new System.Drawing.Size(428, 31);
-            this.gunaTextBoxJmlPglr.TabIndex = 27;
+            this.gunaTextBoxJmlPglr.TabIndex = 36;
             // 
             // gunaLabel6
             // 
@@ -164,7 +164,7 @@
             this.gunaLabel6.Location = new System.Drawing.Point(85, 381);
             this.gunaLabel6.Name = "gunaLabel6";
             this.gunaLabel6.Size = new System.Drawing.Size(73, 21);
-            this.gunaLabel6.TabIndex = 25;
+            this.gunaLabel6.TabIndex = 35;
             this.gunaLabel6.Text = "Deskripsi";
             // 
             // gunaLabel5
@@ -174,7 +174,7 @@
             this.gunaLabel5.Location = new System.Drawing.Point(85, 296);
             this.gunaLabel5.Name = "gunaLabel5";
             this.gunaLabel5.Size = new System.Drawing.Size(59, 21);
-            this.gunaLabel5.TabIndex = 24;
+            this.gunaLabel5.TabIndex = 34;
             this.gunaLabel5.Text = "Jumlah";
             // 
             // gunaLabel4
@@ -184,28 +184,8 @@
             this.gunaLabel4.Location = new System.Drawing.Point(85, 211);
             this.gunaLabel4.Name = "gunaLabel4";
             this.gunaLabel4.Size = new System.Drawing.Size(62, 21);
-            this.gunaLabel4.TabIndex = 23;
+            this.gunaLabel4.TabIndex = 33;
             this.gunaLabel4.Text = "Tanggal";
-            // 
-            // gunaLabel3
-            // 
-            this.gunaLabel3.AutoSize = true;
-            this.gunaLabel3.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel3.Location = new System.Drawing.Point(85, 126);
-            this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(68, 21);
-            this.gunaLabel3.TabIndex = 21;
-            this.gunaLabel3.Text = "Kategori";
-            // 
-            // gunaLabel1
-            // 
-            this.gunaLabel1.AutoSize = true;
-            this.gunaLabel1.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel1.Location = new System.Drawing.Point(32, 29);
-            this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(209, 28);
-            this.gunaLabel1.TabIndex = 19;
-            this.gunaLabel1.Text = "Tambah Pengeluaran";
             // 
             // gunaBtnClose
             // 
@@ -232,10 +212,30 @@
             this.gunaBtnClose.OnPressedColor = System.Drawing.Color.Black;
             this.gunaBtnClose.Radius = 5;
             this.gunaBtnClose.Size = new System.Drawing.Size(36, 35);
-            this.gunaBtnClose.TabIndex = 22;
+            this.gunaBtnClose.TabIndex = 32;
             this.gunaBtnClose.Click += new System.EventHandler(this.gunaBtnClose_Click);
             // 
-            // TambahPengeluaran
+            // gunaLabel3
+            // 
+            this.gunaLabel3.AutoSize = true;
+            this.gunaLabel3.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel3.Location = new System.Drawing.Point(85, 126);
+            this.gunaLabel3.Name = "gunaLabel3";
+            this.gunaLabel3.Size = new System.Drawing.Size(68, 21);
+            this.gunaLabel3.TabIndex = 31;
+            this.gunaLabel3.Text = "Kategori";
+            // 
+            // gunaLabel1
+            // 
+            this.gunaLabel1.AutoSize = true;
+            this.gunaLabel1.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel1.Location = new System.Drawing.Point(32, 29);
+            this.gunaLabel1.Name = "gunaLabel1";
+            this.gunaLabel1.Size = new System.Drawing.Size(172, 28);
+            this.gunaLabel1.TabIndex = 30;
+            this.gunaLabel1.Text = "Edit Pengeluaran";
+            // 
+            // EditPengeluaran
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -253,9 +253,9 @@
             this.Controls.Add(this.gunaLabel3);
             this.Controls.Add(this.gunaLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "TambahPengeluaran";
+            this.Name = "EditPengeluaran";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TambahPengeluaran";
+            this.Text = "EditPengeluaran";
             this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();

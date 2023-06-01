@@ -49,7 +49,7 @@
             this.gunaLabelPemasukanMin = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
             this.gunaShadowPanel5 = new Guna.UI.WinForms.GunaShadowPanel();
-            this.gunaLabelLastPemasukan = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabelLastPmsk = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel10 = new Guna.UI.WinForms.GunaLabel();
             this.gunaShadowPanel6 = new Guna.UI.WinForms.GunaShadowPanel();
             this.gunaLabelTotal = new Guna.UI.WinForms.GunaLabel();
@@ -311,7 +311,7 @@
             this.gunaShadowPanel5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.gunaShadowPanel5.BackColor = System.Drawing.Color.Transparent;
             this.gunaShadowPanel5.BaseColor = System.Drawing.Color.White;
-            this.gunaShadowPanel5.Controls.Add(this.gunaLabelLastPemasukan);
+            this.gunaShadowPanel5.Controls.Add(this.gunaLabelLastPmsk);
             this.gunaShadowPanel5.Controls.Add(this.gunaLabel10);
             this.gunaShadowPanel5.Location = new System.Drawing.Point(841, 120);
             this.gunaShadowPanel5.Name = "gunaShadowPanel5";
@@ -321,15 +321,15 @@
             this.gunaShadowPanel5.Size = new System.Drawing.Size(279, 136);
             this.gunaShadowPanel5.TabIndex = 2;
             // 
-            // gunaLabelLastPemasukan
+            // gunaLabelLastPmsk
             // 
-            this.gunaLabelLastPemasukan.AutoSize = true;
-            this.gunaLabelLastPemasukan.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelLastPemasukan.Location = new System.Drawing.Point(80, 74);
-            this.gunaLabelLastPemasukan.Name = "gunaLabelLastPemasukan";
-            this.gunaLabelLastPemasukan.Size = new System.Drawing.Size(118, 21);
-            this.gunaLabelLastPemasukan.TabIndex = 4;
-            this.gunaLabelLastPemasukan.Text = "LastPemasukan";
+            this.gunaLabelLastPmsk.AutoSize = true;
+            this.gunaLabelLastPmsk.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabelLastPmsk.Location = new System.Drawing.Point(80, 74);
+            this.gunaLabelLastPmsk.Name = "gunaLabelLastPmsk";
+            this.gunaLabelLastPmsk.Size = new System.Drawing.Size(118, 21);
+            this.gunaLabelLastPmsk.TabIndex = 4;
+            this.gunaLabelLastPmsk.Text = "LastPemasukan";
             // 
             // gunaLabel10
             // 
@@ -552,7 +552,7 @@
         private Guna.UI.WinForms.GunaLabel gunaLabel3;
         private Guna.UI.WinForms.GunaLabel gunaLabelPemasukanMin;
         private Guna.UI.WinForms.GunaLabel gunaLabel5;
-        private Guna.UI.WinForms.GunaLabel gunaLabelLastPemasukan;
+        private Guna.UI.WinForms.GunaLabel gunaLabelLastPmsk;
         private Guna.UI.WinForms.GunaLabel gunaLabel10;
         private Guna.UI.WinForms.GunaLabel gunaLabelTotal;
         private Guna.UI.WinForms.GunaLabel gunaLabel14;

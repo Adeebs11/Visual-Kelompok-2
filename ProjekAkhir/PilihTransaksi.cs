@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjekAkhir.CLASS;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,7 @@ namespace ProjekAkhir
         private void gunaBtnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+            
         }
 
         private void gunaGradientPanel1_Click(object sender, EventArgs e)
@@ -91,6 +93,11 @@ namespace ProjekAkhir
             {
                 formBackground.Dispose();
             }
+        }
+
+        private void PilihTransaksi_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

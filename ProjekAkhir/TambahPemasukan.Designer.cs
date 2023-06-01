@@ -30,16 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TambahPemasukan));
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel6 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaTextBox2 = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaTextBox3 = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaDateTimePicker1 = new Guna.UI.WinForms.GunaDateTimePicker();
-            this.gunaComboBox1 = new Guna.UI.WinForms.GunaComboBox();
+            this.gunaTextBoxJmlPmsk = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaTextBoxDeskPmsk = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaDateTimePickerPmsk = new Guna.UI.WinForms.GunaDateTimePicker();
+            this.gunaComboKategoriPmsk = new Guna.UI.WinForms.GunaComboBox();
             this.gunaButtonMulai = new Guna.UI.WinForms.GunaButton();
             this.gunaBtnClose = new Guna.UI.WinForms.GunaButton();
             this.SuspendLayout();
@@ -54,21 +52,11 @@
             this.gunaLabel1.TabIndex = 0;
             this.gunaLabel1.Text = "Tambah Pemasukan";
             // 
-            // gunaLabel2
-            // 
-            this.gunaLabel2.AutoSize = true;
-            this.gunaLabel2.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel2.Location = new System.Drawing.Point(85, 113);
-            this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(127, 21);
-            this.gunaLabel2.TabIndex = 1;
-            this.gunaLabel2.Text = "Jenis Pemasukan";
-            // 
             // gunaLabel3
             // 
             this.gunaLabel3.AutoSize = true;
             this.gunaLabel3.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel3.Location = new System.Drawing.Point(85, 198);
+            this.gunaLabel3.Location = new System.Drawing.Point(85, 126);
             this.gunaLabel3.Name = "gunaLabel3";
             this.gunaLabel3.Size = new System.Drawing.Size(68, 21);
             this.gunaLabel3.TabIndex = 2;
@@ -78,7 +66,7 @@
             // 
             this.gunaLabel4.AutoSize = true;
             this.gunaLabel4.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel4.Location = new System.Drawing.Point(85, 283);
+            this.gunaLabel4.Location = new System.Drawing.Point(85, 211);
             this.gunaLabel4.Name = "gunaLabel4";
             this.gunaLabel4.Size = new System.Drawing.Size(62, 21);
             this.gunaLabel4.TabIndex = 9;
@@ -88,7 +76,7 @@
             // 
             this.gunaLabel5.AutoSize = true;
             this.gunaLabel5.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel5.Location = new System.Drawing.Point(85, 368);
+            this.gunaLabel5.Location = new System.Drawing.Point(85, 296);
             this.gunaLabel5.Name = "gunaLabel5";
             this.gunaLabel5.Size = new System.Drawing.Size(59, 21);
             this.gunaLabel5.TabIndex = 10;
@@ -98,109 +86,92 @@
             // 
             this.gunaLabel6.AutoSize = true;
             this.gunaLabel6.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel6.Location = new System.Drawing.Point(85, 453);
+            this.gunaLabel6.Location = new System.Drawing.Point(85, 381);
             this.gunaLabel6.Name = "gunaLabel6";
             this.gunaLabel6.Size = new System.Drawing.Size(73, 21);
             this.gunaLabel6.TabIndex = 11;
             this.gunaLabel6.Text = "Deskripsi";
             // 
-            // gunaTextBox1
+            // gunaTextBoxJmlPmsk
             // 
-            this.gunaTextBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.BorderColor = System.Drawing.Color.Silver;
-            this.gunaTextBox1.BorderSize = 0;
-            this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTextBox1.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(94)))), ((int)(((byte)(141)))));
-            this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox1.Location = new System.Drawing.Point(78, 148);
-            this.gunaTextBox1.Name = "gunaTextBox1";
-            this.gunaTextBox1.PasswordChar = '\0';
-            this.gunaTextBox1.SelectedText = "";
-            this.gunaTextBox1.Size = new System.Drawing.Size(428, 31);
-            this.gunaTextBox1.TabIndex = 13;
+            this.gunaTextBoxJmlPmsk.BaseColor = System.Drawing.Color.White;
+            this.gunaTextBoxJmlPmsk.BorderColor = System.Drawing.Color.Silver;
+            this.gunaTextBoxJmlPmsk.BorderSize = 0;
+            this.gunaTextBoxJmlPmsk.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBoxJmlPmsk.FocusedBaseColor = System.Drawing.Color.White;
+            this.gunaTextBoxJmlPmsk.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(94)))), ((int)(((byte)(141)))));
+            this.gunaTextBoxJmlPmsk.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.gunaTextBoxJmlPmsk.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaTextBoxJmlPmsk.Location = new System.Drawing.Point(78, 331);
+            this.gunaTextBoxJmlPmsk.Name = "gunaTextBoxJmlPmsk";
+            this.gunaTextBoxJmlPmsk.PasswordChar = '\0';
+            this.gunaTextBoxJmlPmsk.SelectedText = "";
+            this.gunaTextBoxJmlPmsk.Size = new System.Drawing.Size(428, 31);
+            this.gunaTextBoxJmlPmsk.TabIndex = 14;
             // 
-            // gunaTextBox2
+            // gunaTextBoxDeskPmsk
             // 
-            this.gunaTextBox2.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox2.BorderColor = System.Drawing.Color.Silver;
-            this.gunaTextBox2.BorderSize = 0;
-            this.gunaTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTextBox2.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox2.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(94)))), ((int)(((byte)(141)))));
-            this.gunaTextBox2.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.gunaTextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox2.Location = new System.Drawing.Point(78, 403);
-            this.gunaTextBox2.Name = "gunaTextBox2";
-            this.gunaTextBox2.PasswordChar = '\0';
-            this.gunaTextBox2.SelectedText = "";
-            this.gunaTextBox2.Size = new System.Drawing.Size(428, 31);
-            this.gunaTextBox2.TabIndex = 14;
+            this.gunaTextBoxDeskPmsk.BaseColor = System.Drawing.Color.White;
+            this.gunaTextBoxDeskPmsk.BorderColor = System.Drawing.Color.Silver;
+            this.gunaTextBoxDeskPmsk.BorderSize = 0;
+            this.gunaTextBoxDeskPmsk.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBoxDeskPmsk.FocusedBaseColor = System.Drawing.Color.White;
+            this.gunaTextBoxDeskPmsk.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(94)))), ((int)(((byte)(141)))));
+            this.gunaTextBoxDeskPmsk.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.gunaTextBoxDeskPmsk.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaTextBoxDeskPmsk.Location = new System.Drawing.Point(78, 416);
+            this.gunaTextBoxDeskPmsk.Multiline = true;
+            this.gunaTextBoxDeskPmsk.Name = "gunaTextBoxDeskPmsk";
+            this.gunaTextBoxDeskPmsk.PasswordChar = '\0';
+            this.gunaTextBoxDeskPmsk.SelectedText = "";
+            this.gunaTextBoxDeskPmsk.Size = new System.Drawing.Size(428, 88);
+            this.gunaTextBoxDeskPmsk.TabIndex = 15;
             // 
-            // gunaTextBox3
+            // gunaDateTimePickerPmsk
             // 
-            this.gunaTextBox3.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox3.BorderColor = System.Drawing.Color.Silver;
-            this.gunaTextBox3.BorderSize = 0;
-            this.gunaTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTextBox3.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox3.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(94)))), ((int)(((byte)(141)))));
-            this.gunaTextBox3.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.gunaTextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox3.Location = new System.Drawing.Point(78, 488);
-            this.gunaTextBox3.Multiline = true;
-            this.gunaTextBox3.Name = "gunaTextBox3";
-            this.gunaTextBox3.PasswordChar = '\0';
-            this.gunaTextBox3.SelectedText = "";
-            this.gunaTextBox3.Size = new System.Drawing.Size(428, 88);
-            this.gunaTextBox3.TabIndex = 15;
+            this.gunaDateTimePickerPmsk.BaseColor = System.Drawing.Color.White;
+            this.gunaDateTimePickerPmsk.BorderColor = System.Drawing.Color.Silver;
+            this.gunaDateTimePickerPmsk.BorderSize = 0;
+            this.gunaDateTimePickerPmsk.CustomFormat = null;
+            this.gunaDateTimePickerPmsk.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.gunaDateTimePickerPmsk.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(94)))), ((int)(((byte)(141)))));
+            this.gunaDateTimePickerPmsk.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaDateTimePickerPmsk.ForeColor = System.Drawing.Color.Black;
+            this.gunaDateTimePickerPmsk.Location = new System.Drawing.Point(78, 246);
+            this.gunaDateTimePickerPmsk.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.gunaDateTimePickerPmsk.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.gunaDateTimePickerPmsk.Name = "gunaDateTimePickerPmsk";
+            this.gunaDateTimePickerPmsk.OnHoverBaseColor = System.Drawing.Color.White;
+            this.gunaDateTimePickerPmsk.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(94)))), ((int)(((byte)(141)))));
+            this.gunaDateTimePickerPmsk.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(94)))), ((int)(((byte)(141)))));
+            this.gunaDateTimePickerPmsk.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaDateTimePickerPmsk.Size = new System.Drawing.Size(428, 31);
+            this.gunaDateTimePickerPmsk.TabIndex = 16;
+            this.gunaDateTimePickerPmsk.Text = "Saturday, 13 May 2023";
+            this.gunaDateTimePickerPmsk.Value = new System.DateTime(2023, 5, 13, 12, 3, 27, 3);
             // 
-            // gunaDateTimePicker1
+            // gunaComboKategoriPmsk
             // 
-            this.gunaDateTimePicker1.BaseColor = System.Drawing.Color.White;
-            this.gunaDateTimePicker1.BorderColor = System.Drawing.Color.Silver;
-            this.gunaDateTimePicker1.BorderSize = 0;
-            this.gunaDateTimePicker1.CustomFormat = null;
-            this.gunaDateTimePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.gunaDateTimePicker1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(94)))), ((int)(((byte)(141)))));
-            this.gunaDateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaDateTimePicker1.ForeColor = System.Drawing.Color.Black;
-            this.gunaDateTimePicker1.Location = new System.Drawing.Point(78, 318);
-            this.gunaDateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.gunaDateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.gunaDateTimePicker1.Name = "gunaDateTimePicker1";
-            this.gunaDateTimePicker1.OnHoverBaseColor = System.Drawing.Color.White;
-            this.gunaDateTimePicker1.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(94)))), ((int)(((byte)(141)))));
-            this.gunaDateTimePicker1.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(94)))), ((int)(((byte)(141)))));
-            this.gunaDateTimePicker1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaDateTimePicker1.Size = new System.Drawing.Size(428, 31);
-            this.gunaDateTimePicker1.TabIndex = 16;
-            this.gunaDateTimePicker1.Text = "Saturday, 13 May 2023";
-            this.gunaDateTimePicker1.Value = new System.DateTime(2023, 5, 13, 12, 3, 27, 3);
-            // 
-            // gunaComboBox1
-            // 
-            this.gunaComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaComboBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaComboBox1.BorderColor = System.Drawing.Color.Silver;
-            this.gunaComboBox1.BorderSize = 0;
-            this.gunaComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.gunaComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.gunaComboBox1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.gunaComboBox1.ForeColor = System.Drawing.Color.Black;
-            this.gunaComboBox1.FormattingEnabled = true;
-            this.gunaComboBox1.Items.AddRange(new object[] {
+            this.gunaComboKategoriPmsk.BackColor = System.Drawing.Color.Transparent;
+            this.gunaComboKategoriPmsk.BaseColor = System.Drawing.Color.White;
+            this.gunaComboKategoriPmsk.BorderColor = System.Drawing.Color.Silver;
+            this.gunaComboKategoriPmsk.BorderSize = 0;
+            this.gunaComboKategoriPmsk.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.gunaComboKategoriPmsk.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.gunaComboKategoriPmsk.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaComboKategoriPmsk.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.gunaComboKategoriPmsk.ForeColor = System.Drawing.Color.Black;
+            this.gunaComboKategoriPmsk.FormattingEnabled = true;
+            this.gunaComboKategoriPmsk.Items.AddRange(new object[] {
             "Gaji",
             "Investasi",
             "Lainnya"});
-            this.gunaComboBox1.Location = new System.Drawing.Point(78, 233);
-            this.gunaComboBox1.Name = "gunaComboBox1";
-            this.gunaComboBox1.OnHoverItemBaseColor = System.Drawing.Color.White;
-            this.gunaComboBox1.OnHoverItemForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(94)))), ((int)(((byte)(141)))));
-            this.gunaComboBox1.Size = new System.Drawing.Size(428, 31);
-            this.gunaComboBox1.TabIndex = 17;
+            this.gunaComboKategoriPmsk.Location = new System.Drawing.Point(78, 161);
+            this.gunaComboKategoriPmsk.Name = "gunaComboKategoriPmsk";
+            this.gunaComboKategoriPmsk.OnHoverItemBaseColor = System.Drawing.Color.White;
+            this.gunaComboKategoriPmsk.OnHoverItemForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(94)))), ((int)(((byte)(141)))));
+            this.gunaComboKategoriPmsk.Size = new System.Drawing.Size(428, 31);
+            this.gunaComboKategoriPmsk.TabIndex = 17;
             // 
             // gunaButtonMulai
             // 
@@ -216,7 +187,7 @@
             this.gunaButtonMulai.ForeColor = System.Drawing.Color.White;
             this.gunaButtonMulai.Image = null;
             this.gunaButtonMulai.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButtonMulai.Location = new System.Drawing.Point(324, 603);
+            this.gunaButtonMulai.Location = new System.Drawing.Point(324, 547);
             this.gunaButtonMulai.Name = "gunaButtonMulai";
             this.gunaButtonMulai.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(246)))));
             this.gunaButtonMulai.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -229,6 +200,7 @@
             this.gunaButtonMulai.TabIndex = 18;
             this.gunaButtonMulai.Text = "SIMPAN";
             this.gunaButtonMulai.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButtonMulai.Click += new System.EventHandler(this.gunaButtonMulai_Click);
             // 
             // gunaBtnClose
             // 
@@ -265,17 +237,15 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(585, 702);
             this.Controls.Add(this.gunaButtonMulai);
-            this.Controls.Add(this.gunaComboBox1);
-            this.Controls.Add(this.gunaDateTimePicker1);
-            this.Controls.Add(this.gunaTextBox3);
-            this.Controls.Add(this.gunaTextBox2);
-            this.Controls.Add(this.gunaTextBox1);
+            this.Controls.Add(this.gunaComboKategoriPmsk);
+            this.Controls.Add(this.gunaDateTimePickerPmsk);
+            this.Controls.Add(this.gunaTextBoxDeskPmsk);
+            this.Controls.Add(this.gunaTextBoxJmlPmsk);
             this.Controls.Add(this.gunaLabel6);
             this.Controls.Add(this.gunaLabel5);
             this.Controls.Add(this.gunaLabel4);
             this.Controls.Add(this.gunaBtnClose);
             this.Controls.Add(this.gunaLabel3);
-            this.Controls.Add(this.gunaLabel2);
             this.Controls.Add(this.gunaLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TambahPemasukan";
@@ -290,17 +260,15 @@
         #endregion
 
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
-        private Guna.UI.WinForms.GunaLabel gunaLabel2;
         private Guna.UI.WinForms.GunaLabel gunaLabel3;
         private Guna.UI.WinForms.GunaButton gunaBtnClose;
         private Guna.UI.WinForms.GunaLabel gunaLabel4;
         private Guna.UI.WinForms.GunaLabel gunaLabel5;
         private Guna.UI.WinForms.GunaLabel gunaLabel6;
-        private Guna.UI.WinForms.GunaTextBox gunaTextBox1;
-        private Guna.UI.WinForms.GunaTextBox gunaTextBox2;
-        private Guna.UI.WinForms.GunaTextBox gunaTextBox3;
-        private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker1;
-        private Guna.UI.WinForms.GunaComboBox gunaComboBox1;
+        private Guna.UI.WinForms.GunaTextBox gunaTextBoxJmlPmsk;
+        private Guna.UI.WinForms.GunaTextBox gunaTextBoxDeskPmsk;
+        private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePickerPmsk;
+        private Guna.UI.WinForms.GunaComboBox gunaComboKategoriPmsk;
         private Guna.UI.WinForms.GunaButton gunaButtonMulai;
     }
 }

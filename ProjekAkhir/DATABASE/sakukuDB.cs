@@ -11,7 +11,7 @@ namespace ProjekAkhir.DATABASE
 {
     public class sakukuDB
     {
-        MySqlConnection connection = new MySqlConnection("server=localhost;port=3308;database=sakuku;uid=root;pwd=\"\"");
+        MySqlConnection connection = new MySqlConnection("server=localhost;port=3306;database=sakuku;uid=root;pwd=\"\"");
 
         //Open the connection
         public void openConnection()

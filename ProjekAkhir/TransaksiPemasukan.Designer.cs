@@ -34,11 +34,8 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gunaDataGridViewPemasukan = new Guna.UI.WinForms.GunaDataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
-            this.Kategori = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Tanggal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Jumlah = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Deskripsi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaButtonEdit = new Guna.UI.WinForms.GunaButton();
             this.gunaButtonHapus = new Guna.UI.WinForms.GunaButton();
@@ -47,6 +44,8 @@
             // 
             // gunaDataGridViewPemasukan
             // 
+            this.gunaDataGridViewPemasukan.AllowUserToAddRows = false;
+            this.gunaDataGridViewPemasukan.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.gunaDataGridViewPemasukan.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.gunaDataGridViewPemasukan.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -67,10 +66,7 @@
             this.gunaDataGridViewPemasukan.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.gunaDataGridViewPemasukan.ColumnHeadersHeight = 50;
             this.gunaDataGridViewPemasukan.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Kategori,
-            this.Tanggal,
-            this.Jumlah,
-            this.Deskripsi});
+            this.Column1});
             this.gunaDataGridViewPemasukan.Cursor = System.Windows.Forms.Cursors.Hand;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
@@ -84,6 +80,7 @@
             this.gunaDataGridViewPemasukan.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.gunaDataGridViewPemasukan.Location = new System.Drawing.Point(99, 152);
             this.gunaDataGridViewPemasukan.Name = "gunaDataGridViewPemasukan";
+            this.gunaDataGridViewPemasukan.ReadOnly = true;
             this.gunaDataGridViewPemasukan.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
@@ -115,7 +112,7 @@
             this.gunaDataGridViewPemasukan.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.gunaDataGridViewPemasukan.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.gunaDataGridViewPemasukan.ThemeStyle.HeaderStyle.Height = 50;
-            this.gunaDataGridViewPemasukan.ThemeStyle.ReadOnly = false;
+            this.gunaDataGridViewPemasukan.ThemeStyle.ReadOnly = true;
             this.gunaDataGridViewPemasukan.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.gunaDataGridViewPemasukan.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.gunaDataGridViewPemasukan.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -123,36 +120,23 @@
             this.gunaDataGridViewPemasukan.ThemeStyle.RowsStyle.Height = 30;
             this.gunaDataGridViewPemasukan.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(174)))), ((int)(((byte)(251)))));
             this.gunaDataGridViewPemasukan.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.gunaDataGridViewPemasukan.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gunaDataGridViewPemasukan_CellClick);
             this.gunaDataGridViewPemasukan.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gunaDataGridView1_CellContentClick);
+            // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column1.DataPropertyName = "id_pemasukan";
+            this.Column1.HeaderText = "Id";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 40;
             // 
             // gunaElipse1
             // 
             this.gunaElipse1.Radius = 1;
             this.gunaElipse1.TargetControl = this.gunaDataGridViewPemasukan;
-            // 
-            // Kategori
-            // 
-            this.Kategori.HeaderText = "Kategori";
-            this.Kategori.MinimumWidth = 6;
-            this.Kategori.Name = "Kategori";
-            // 
-            // Tanggal
-            // 
-            this.Tanggal.HeaderText = "Tanggal";
-            this.Tanggal.MinimumWidth = 6;
-            this.Tanggal.Name = "Tanggal";
-            // 
-            // Jumlah
-            // 
-            this.Jumlah.HeaderText = "Jumlah";
-            this.Jumlah.MinimumWidth = 6;
-            this.Jumlah.Name = "Jumlah";
-            // 
-            // Deskripsi
-            // 
-            this.Deskripsi.HeaderText = "Deskripsi";
-            this.Deskripsi.MinimumWidth = 6;
-            this.Deskripsi.Name = "Deskripsi";
             // 
             // gunaLabel1
             // 
@@ -161,7 +145,7 @@
             this.gunaLabel1.Font = new System.Drawing.Font("Calibri", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel1.Location = new System.Drawing.Point(369, 63);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(440, 41);
+            this.gunaLabel1.Size = new System.Drawing.Size(426, 40);
             this.gunaLabel1.TabIndex = 1;
             this.gunaLabel1.Text = "Tampilan Transaksi Pemasukan";
             // 
@@ -192,6 +176,7 @@
             this.gunaButtonEdit.TabIndex = 2;
             this.gunaButtonEdit.Text = "Edit";
             this.gunaButtonEdit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButtonEdit.Click += new System.EventHandler(this.gunaButtonEdit_Click);
             // 
             // gunaButtonHapus
             // 
@@ -220,6 +205,7 @@
             this.gunaButtonHapus.TabIndex = 3;
             this.gunaButtonHapus.Text = "Hapus";
             this.gunaButtonHapus.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButtonHapus.Click += new System.EventHandler(this.gunaButtonHapus_Click);
             // 
             // TransaksiPemasukan
             // 
@@ -234,6 +220,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TransaksiPemasukan";
             this.Text = "Transaksi";
+            this.Load += new System.EventHandler(this.TransaksiPemasukan_Load);
             this.Shown += new System.EventHandler(this.Transaksi_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.gunaDataGridViewPemasukan)).EndInit();
             this.ResumeLayout(false);
@@ -242,15 +229,11 @@
         }
 
         #endregion
-
-        private Guna.UI.WinForms.GunaDataGridView gunaDataGridViewPemasukan;
         private Guna.UI.WinForms.GunaElipse gunaElipse1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Kategori;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Tanggal;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Jumlah;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Deskripsi;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
         private Guna.UI.WinForms.GunaButton gunaButtonEdit;
         private Guna.UI.WinForms.GunaButton gunaButtonHapus;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        public Guna.UI.WinForms.GunaDataGridView gunaDataGridViewPemasukan;
     }
 }

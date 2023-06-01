@@ -30,7 +30,7 @@ namespace ProjekAkhir
             gunaLabelTglPemasukan.Text = pmsk.tglPemasukan();
             gunaLabelPemasukanMax.Text = "Rp." + pmsk.maxPemasukan();
             gunaLabelPemasukanMin.Text = "Rp." + pmsk.minPemasukan();
-            gunaLabelLastPemasukan.Text = "Rp." + pmsk.lastPemasukan();
+            gunaLabelLastPmsk.Text = "Rp." + pmsk.lastPemasukan();
 
             //Pengeluaran
             gunaLabelJmlPengeluaran.Text = "Rp." + pglr.jmlPengeluaran();
@@ -43,6 +43,5 @@ namespace ProjekAkhir
             //Total
             gunaLabelTotal.Text = "Rp." + pmsk.totalBalance();
         }
-        
     }
 }

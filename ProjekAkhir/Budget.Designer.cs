@@ -70,11 +70,11 @@
             this.gunaPictureBox9 = new Guna.UI.WinForms.GunaPictureBox();
             this.gunaImageButton1 = new Guna.UI.WinForms.GunaImageButton();
             this.gunaShadowPanel10 = new Guna.UI.WinForms.GunaShadowPanel();
-            this.gunaLabelTotLainPemasukan = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabelTotLainPengeluaran = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel14 = new Guna.UI.WinForms.GunaLabel();
             this.gunaPictureBox10 = new Guna.UI.WinForms.GunaPictureBox();
             this.gunaShadowPanel11 = new Guna.UI.WinForms.GunaShadowPanel();
-            this.gunaLabelTotLainPengeluaran = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabelTotLainPemasukan = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel15 = new Guna.UI.WinForms.GunaLabel();
             this.gunaPictureBox11 = new Guna.UI.WinForms.GunaPictureBox();
             this.gunaShadowPanel1.SuspendLayout();
@@ -615,7 +615,7 @@
             this.gunaShadowPanel10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.gunaShadowPanel10.BackColor = System.Drawing.Color.Transparent;
             this.gunaShadowPanel10.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.gunaShadowPanel10.Controls.Add(this.gunaLabelTotLainPemasukan);
+            this.gunaShadowPanel10.Controls.Add(this.gunaLabelTotLainPengeluaran);
             this.gunaShadowPanel10.Controls.Add(this.gunaLabel14);
             this.gunaShadowPanel10.Controls.Add(this.gunaPictureBox10);
             this.gunaShadowPanel10.Location = new System.Drawing.Point(860, 351);
@@ -627,16 +627,16 @@
             this.gunaShadowPanel10.Size = new System.Drawing.Size(186, 192);
             this.gunaShadowPanel10.TabIndex = 18;
             // 
-            // gunaLabelTotLainPemasukan
+            // gunaLabelTotLainPengeluaran
             // 
-            this.gunaLabelTotLainPemasukan.AutoSize = true;
-            this.gunaLabelTotLainPemasukan.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelTotLainPemasukan.Location = new System.Drawing.Point(50, 145);
-            this.gunaLabelTotLainPemasukan.Name = "gunaLabelTotLainPemasukan";
-            this.gunaLabelTotLainPemasukan.Size = new System.Drawing.Size(81, 21);
-            this.gunaLabelTotLainPemasukan.TabIndex = 17;
-            this.gunaLabelTotLainPemasukan.Text = "RpLainnya";
-            this.gunaLabelTotLainPemasukan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.gunaLabelTotLainPengeluaran.AutoSize = true;
+            this.gunaLabelTotLainPengeluaran.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabelTotLainPengeluaran.Location = new System.Drawing.Point(50, 145);
+            this.gunaLabelTotLainPengeluaran.Name = "gunaLabelTotLainPengeluaran";
+            this.gunaLabelTotLainPengeluaran.Size = new System.Drawing.Size(81, 21);
+            this.gunaLabelTotLainPengeluaran.TabIndex = 17;
+            this.gunaLabelTotLainPengeluaran.Text = "RpLainnya";
+            this.gunaLabelTotLainPengeluaran.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // gunaLabel14
             // 
@@ -665,7 +665,7 @@
             this.gunaShadowPanel11.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.gunaShadowPanel11.BackColor = System.Drawing.Color.Transparent;
             this.gunaShadowPanel11.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(255)))));
-            this.gunaShadowPanel11.Controls.Add(this.gunaLabelTotLainPengeluaran);
+            this.gunaShadowPanel11.Controls.Add(this.gunaLabelTotLainPemasukan);
             this.gunaShadowPanel11.Controls.Add(this.gunaLabel15);
             this.gunaShadowPanel11.Controls.Add(this.gunaPictureBox11);
             this.gunaShadowPanel11.Location = new System.Drawing.Point(609, 596);
@@ -677,16 +677,16 @@
             this.gunaShadowPanel11.Size = new System.Drawing.Size(186, 192);
             this.gunaShadowPanel11.TabIndex = 19;
             // 
-            // gunaLabelTotLainPengeluaran
+            // gunaLabelTotLainPemasukan
             // 
-            this.gunaLabelTotLainPengeluaran.AutoSize = true;
-            this.gunaLabelTotLainPengeluaran.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelTotLainPengeluaran.Location = new System.Drawing.Point(50, 145);
-            this.gunaLabelTotLainPengeluaran.Name = "gunaLabelTotLainPengeluaran";
-            this.gunaLabelTotLainPengeluaran.Size = new System.Drawing.Size(81, 21);
-            this.gunaLabelTotLainPengeluaran.TabIndex = 17;
-            this.gunaLabelTotLainPengeluaran.Text = "RpLainnya";
-            this.gunaLabelTotLainPengeluaran.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.gunaLabelTotLainPemasukan.AutoSize = true;
+            this.gunaLabelTotLainPemasukan.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabelTotLainPemasukan.Location = new System.Drawing.Point(50, 145);
+            this.gunaLabelTotLainPemasukan.Name = "gunaLabelTotLainPemasukan";
+            this.gunaLabelTotLainPemasukan.Size = new System.Drawing.Size(81, 21);
+            this.gunaLabelTotLainPemasukan.TabIndex = 17;
+            this.gunaLabelTotLainPemasukan.Text = "RpLainnya";
+            this.gunaLabelTotLainPemasukan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // gunaLabel15
             // 
@@ -809,7 +809,6 @@
         private Guna.UI.WinForms.GunaLabel gunaLabelTotPendidikan;
         private Guna.UI.WinForms.GunaLabel gunaLabel10;
         private Guna.UI.WinForms.GunaPictureBox gunaPictureBox7;
-        private Guna.UI.WinForms.GunaLabel gunaLabelTotGaji;
         private Guna.UI.WinForms.GunaLabel gunaLabel12;
         private Guna.UI.WinForms.GunaPictureBox gunaPictureBox8;
         private Guna.UI.WinForms.GunaLabel gunaLabelTotInvestasi;
@@ -817,12 +816,13 @@
         private Guna.UI.WinForms.GunaPictureBox gunaPictureBox9;
         private Guna.UI.WinForms.GunaImageButton gunaImageButton1;
         private Guna.UI.WinForms.GunaShadowPanel gunaShadowPanel10;
-        private Guna.UI.WinForms.GunaLabel gunaLabelTotLainPemasukan;
+        private Guna.UI.WinForms.GunaLabel gunaLabelTotLainPengeluaran;
         private Guna.UI.WinForms.GunaLabel gunaLabel14;
         private Guna.UI.WinForms.GunaPictureBox gunaPictureBox10;
         private Guna.UI.WinForms.GunaShadowPanel gunaShadowPanel11;
-        private Guna.UI.WinForms.GunaLabel gunaLabelTotLainPengeluaran;
+        private Guna.UI.WinForms.GunaLabel gunaLabelTotLainPemasukan;
         private Guna.UI.WinForms.GunaLabel gunaLabel15;
         private Guna.UI.WinForms.GunaPictureBox gunaPictureBox11;
+        public Guna.UI.WinForms.GunaLabel gunaLabelTotGaji;
     }
 }

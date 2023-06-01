@@ -96,6 +96,8 @@
     <Compile Include="Budget.Designer.cs">
       <DependentUpon>Budget.cs</DependentUpon>
     </Compile>
+    <Compile Include="CLASS\addPemasukan.cs" />
+    <Compile Include="CLASS\addPengeluaran.cs" />
     <Compile Include="CLASS\budget.cs" />
     <Compile Include="CLASS\pemasukan.cs" />
     <Compile Include="CLASS\pengeluaran.cs" />
@@ -106,6 +108,18 @@
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="DATABASE\sakukuDB.cs" />
+    <Compile Include="EditPemasukan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPemasukan.Designer.cs">
+      <DependentUpon>EditPemasukan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditPengeluaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPengeluaran.Designer.cs">
+      <DependentUpon>EditPengeluaran.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -161,6 +175,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPemasukan.resx">
+      <DependentUpon>EditPemasukan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPengeluaran.resx">
+      <DependentUpon>EditPengeluaran.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

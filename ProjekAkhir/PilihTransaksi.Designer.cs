@@ -174,6 +174,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PilihTransaksi";
             this.TopMost = true;
+            this.Load += new System.EventHandler(this.PilihTransaksi_Load);
             this.gunaGradientPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox1)).EndInit();
             this.ResumeLayout(false);
